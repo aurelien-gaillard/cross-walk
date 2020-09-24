@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.light {
+    height: 650px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black; 
+    background: grey;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    border: 2px solid blacks
+}
+
+.light__counter {  
+    width: 200px;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: red;
+}
+
+.light__button {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    background-color: yellowgreen;
+}
